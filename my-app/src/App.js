@@ -1,11 +1,11 @@
 import './App.css';
-import Api from './components/Api';
+import Child from './components/Child';
 
 function App() {
   return (
     <div className="App">
       
-      <Api />
+      <Child />
 
     </div>
   );

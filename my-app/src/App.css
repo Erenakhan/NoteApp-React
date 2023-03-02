@@ -1,44 +1,63 @@
 *{
-  margin:0;
+  margin:0;  
+  background-color: white;
 }
 
-.App {
- 
-}
-h1{
+.main{
   text-align: center;
 }
-.user{
-  background-color: rgb(97, 68, 97);
-  color: white;
-  text-shadow: 5px;
-  font-style: oblique;
-  border: 1px solid ;
-  border-radius: 20px;
-  text-align: center;
-  width: 200px;
-  height: 250px;
-  margin: 10px;
 
-  
-}
-ul{
-  list-style-type: none;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-li {
-
+.items{
   padding: 20px;
+  overflow: hidden ;
+  border: 1px solid black;
+  width: 400px;
+  height: 150px;
+  margin: 10px;
+  text-align: left ;
+  color: white;
+}
+.notes{
+  display: flex ;
+  align-items: baseline;
+  width: 100%;
+}
+.colorBlue{ 
+  background-color: blue;
+  border-radius: 50px;
+  width:20px;
+  height:20px;
+  margin-top:10px;;
 
 }
-img{
-
-  border-radius: 20px;
-  margin-bottom: 20px;
+.colorRed{ 
+  background-color: red;
+  border-radius: 50%;
+  width:20px;
+  height:20px;
+  margin-top:10px;
+}
+.colorBlack{ 
+  background-color: black;
+  border-radius: 50%;
+  width:20px;
+  height:20px;
+  margin-top:10px;
+}
+.colorPurple{ 
+  background-color: purple;
+  border-radius: 50%;
+  width:20px;
+  height:20px;
+  margin-top:10px;
 }
 
-
-
-
+.input-input{
+  padding: 20px;
+  border: 1px solid black;
+  width: 400px;
+  height: 150px;
+  margin: 10px;
+  text-align: left ;
+  align-self: first baseline;
+}
