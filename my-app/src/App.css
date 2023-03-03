@@ -1,63 +1,105 @@
 *{
   margin:0;  
-  background-color: white;
 }
+
 
 .main{
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .items{
   padding: 20px;
   overflow: hidden ;
   border: 1px solid black;
-  width: 400px;
+  padding: 20px;
+  border: 1px solid black;
+  min-width: 200px;
   height: 150px;
   margin: 10px;
-  text-align: left ;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
   color: white;
 }
-.notes{
-  display: flex ;
-  align-items: baseline;
-  width: 100%;
-}
+
 .colorBlue{ 
-  background-color: blue;
+  background-color: rgb(90, 90, 201);
   border-radius: 50px;
   width:20px;
   height:20px;
-  margin-top:10px;;
+  margin:8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
 
 }
-.colorRed{ 
-  background-color: red;
+.colorGreen{ 
+  background-color: rgb(76, 168, 108);
   border-radius: 50%;
   width:20px;
   height:20px;
-  margin-top:10px;
+  margin:8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
 }
-.colorBlack{ 
-  background-color: black;
+.colorYellow{ 
+  background-color: yellow;
   border-radius: 50%;
   width:20px;
   height:20px;
-  margin-top:10px;
+  margin:8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
 }
 .colorPurple{ 
   background-color: purple;
   border-radius: 50%;
   width:20px;
   height:20px;
-  margin-top:10px;
+  margin:8px;
+  border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
 }
 
 .input-input{
   padding: 20px;
-  border: 1px solid black;
   width: 400px;
   height: 150px;
-  margin: 10px;
-  text-align: left ;
-  align-self: first baseline;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  color: white;
+  font-size: 1.5rem;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.add{
+  background-color: rgb(11, 12, 11);
+  border-radius: 50%;
+  width:80px;
+  height:40px;
+  margin-top:15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  color: white;
+
+}
+.notes{
+  margin: 20px;
+  max-width: 1800px;
+  display: flex;
+  align-items:center ;
+  justify-content: flex-start;
+  overflow-wrap: break-word;
+  word-wrap: break-word
 }
