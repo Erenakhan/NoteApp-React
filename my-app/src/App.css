@@ -1,5 +1,6 @@
 *{
   margin:0;  
+  padding: 0;
 }
 
 
@@ -21,7 +22,8 @@
   border-radius: 5px;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px #999;
-  color: white;
+  color: rgb(0, 0, 0);
+  padding-top: 40px;
 }
 
 .colorBlue{ 
@@ -62,8 +64,8 @@
   height:20px;
   margin:8px;
   border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
 }
 
 .input-input{
@@ -74,8 +76,8 @@
   border-radius: 5px;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px #999;
-  color: white;
-  font-size: 1.5rem;
+  color: black;
+  font-size: 1.5rem; 
 }
 
 h1 {
@@ -95,11 +97,10 @@ h1 {
 
 }
 .notes{
-  margin: 20px;
-  max-width: 1800px;
+  margin-left: 60px;
   display: flex;
-  align-items:center ;
-  justify-content: flex-start;
-  overflow-wrap: break-word;
-  word-wrap: break-word
+  flex-direction: row;
+  flex-flow: wrap;
 }
+
+

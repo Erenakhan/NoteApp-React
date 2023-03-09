@@ -5,7 +5,7 @@ import '../App.css'
 function Child() {
     const [value,setValue]=useState()
     const [notes,setNotes]=useState([])
-    const [background,setBackground]=useState("rgb(90, 90, 201)")
+    const [background,setBackground]=useState('yellow')
     const colorBlue=()=>{setBackground( "rgb(90, 90, 201)") }
     const colorGreen=()=>{setBackground( "rgb(76, 168, 108)") }
     const colorYelleow=()=>{setBackground('yellow') }
